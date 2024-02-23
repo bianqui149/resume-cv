@@ -100,7 +100,7 @@ export const Data = {
       },
       {
         title: "FULL-STACK DEVELOPER",
-        period: "Febraury 2022 - Febraury 2023",
+        period: "May 2017 - Febraury 2022",
         company: "Patagonian Tech",
         description: [
           "Web application monitoring and security updates for multiples applications.",
