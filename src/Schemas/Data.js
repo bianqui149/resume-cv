@@ -34,11 +34,8 @@ export const Data = {
       "Aws",
       "Docker",
       "Terminus",
-      "Comunicación",
-      "Proactividad",
-      "Creatividad",
-      "Autodidacta",
-      "Mentoria",
+      "WP-CLI",
+      "Cloudflare"
     ],
   },
   socialMedia: {
@@ -58,9 +55,15 @@ export const Data = {
       },
       {
         label: "Jbianqui",
-        name: "twiiter",
+        name: "instagram",
         url: "https://www.instagram.com/julianbianqui/",
         className: "bxl-instagram",
+      },
+      {
+        label: "Jbianqui",
+        name: "twitter",
+        url: "https://twitter.com/JBianqui",
+        className: "bxl-twitter",
       },
     ],
   },
@@ -68,7 +71,7 @@ export const Data = {
     works: [
       {
         title: "FULL-STACK DEVELOPER",
-        period: "March 2023 - Actualidad",
+        period: "March 2023 - Present",
         company: "Split IO",
         description: [
           "Site reconstruction and brand rebranding.",
@@ -78,12 +81,30 @@ export const Data = {
       },
       {
         title: "FULL-STACK DEVELOPER",
-        period: "Oct. 2019 - Oct. 2021",
+        period: "January 2017 - Present",
         company: "Dinkuminteractive",
         description: [
           "Site reconstruction and brand rebranding.",
           "Web application monitoring and security updates.",
           "CI/CD pipeline with GITHUB."
+        ],
+      },
+      {
+        title: "Senior Software Engineer",
+        period: "Febraury 2022 - Febraury 2023",
+        company: "Intive",
+        description: [
+          "Web application monitoring and security updates for multiples applications.",
+          "CI/CD pipeline with Jenkins."
+        ],
+      },
+      {
+        title: "FULL-STACK DEVELOPER",
+        period: "Febraury 2022 - Febraury 2023",
+        company: "Patagonian Tech",
+        description: [
+          "Web application monitoring and security updates for multiples applications.",
+          "CI/CD pipeline with Bitbucket."
         ],
       },
     ],
