@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {
   BrowserRouter as Router,
+  Routes,
   NavLink,
   Route,
   Navigate,
@@ -17,7 +18,11 @@ export const Menu = ({ menu }) => {
   return (
     <header className="l-header" id="header">
       <Router>
-        <Route exact path="/"><Navigate to="/#home" /></Route>
+        <Routes>
+          <Route exact path="/">
+            <Navigate to="/#home" />
+          </Route>
+        </Routes>
         <nav className="nav bd-container">
           <span className="nav__logo">Menu</span>
           <div

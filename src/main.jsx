@@ -1,13 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { Resume } from "./Pages/Resume";
+import { createRoot } from "react-dom/client";
 
-import "./App.css";
+import  "./App.css";
 
-ReactDOM.render(
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
     <React.StrictMode>
-        <Resume />
+          <Resume />
     </React.StrictMode>,
-    document.getElementById("root")
 );
-
