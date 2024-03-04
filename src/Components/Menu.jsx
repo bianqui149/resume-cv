@@ -20,7 +20,7 @@ export const Menu = ({ menu }) => {
       <Router>
         <Routes>
           <Route exact path="/">
-            <Navigate to="/#home" />
+            
           </Route>
         </Routes>
         <nav className="nav bd-container">

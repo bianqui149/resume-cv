@@ -5,7 +5,7 @@ export const Data = {
     location: "Neuquen, Argentina",
     email: "bianquijulian@gmail.com",
     // telephone: "+56 971999705",
-    image: "images/profile.jpg",
+    image: "images/profile-3.png",
   },
   aboutMe: {
     label: "Profile",
@@ -121,7 +121,7 @@ export const Data = {
         company: "website",
         period: "May. 2018 - Febraury. 2022",
         description: [
-          "Design, development, security and deployment of the website of the digital newspaper",
+          "Design, development, security and deployment of the website of the digital newspaper.",
         ],
       },
       {
@@ -129,7 +129,24 @@ export const Data = {
         company: "website",
         period: "Febraury. 2022 - Febraury. 2023",
         description: [
-          "Control, development, security and deployment of APIs and website of the digital newspaper",
+          "Control, development, security and deployment of APIs and website of the digital newspaper.",
+        ],
+      },
+      
+      {
+        name: "Tisasrl.com.ar",
+        company: "website",
+        period: "November. 2021",
+        description: [
+          "Site development and implementation, control and monitoring of the application.",
+        ],
+      },
+      {
+        name: "Mayarts.com",
+        company: "website",
+        period: "September. 2018",
+        description: [
+          "Ecommerce development and implementation.",
         ],
       },
     ],

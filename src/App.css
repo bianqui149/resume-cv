@@ -243,9 +243,9 @@ body.dark-theme {
 }
 
 .home__img {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 200px;
+  height: 225px;
+  border-radius: 35%;
   justify-self: center;
   margin-bottom: var(--mb-1);
 }
