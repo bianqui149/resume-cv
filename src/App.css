@@ -244,8 +244,8 @@ body.dark-theme {
 
 .home__img {
   width: 200px;
-  height: 225px;
-  border-radius: 35%;
+  height: 270px;
+  border-radius: 85px;
   justify-self: center;
   margin-bottom: var(--mb-1);
 }
@@ -291,8 +291,7 @@ body.dark-theme {
 }
 
 .social__container {
-  grid-template-columns: max-content;
-  gap: 1rem;
+  display: flex;
 }
 
 .social__link {

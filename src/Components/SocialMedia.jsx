@@ -13,6 +13,6 @@ export const SocialMedia = ({ label, social }) => {
 
 const Social = ({ label, url, className }) => (
   <a href={url} target="_blank" rel="noreferrer" className="social__link">
-    <i className={`bx ${className} social__icon`}></i> {label}
+    <i className={`bx ${className} social__icon`}></i>
   </a>
 );

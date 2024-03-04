@@ -5,7 +5,7 @@ export const Data = {
     location: "Neuquen, Argentina",
     email: "bianquijulian@gmail.com",
     // telephone: "+56 971999705",
-    image: "images/profile-3.png",
+    image: "images/profile-3-min.png",
   },
   aboutMe: {
     label: "Profile",
@@ -22,7 +22,7 @@ export const Data = {
       "Ruby",
       "Java",
       "Nodejs",
-      "Wordpress",
+      "WordPress",
       "Laravel",
       "MYSQL",
       "MONGO",
