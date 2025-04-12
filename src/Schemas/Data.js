@@ -70,8 +70,18 @@ export const Data = {
   experience: {
     works: [
       {
+        title: "Senior PHP developer",
+        period: "October 2024 - Present",
+        company: "Better Collective",
+        description: [
+          "Responsible for the design, development and maintenance of websites.",
+          "Creating custom plugins.",
+          "Optimizing of sites, performance  and security."
+        ],
+      },
+      {
         title: "FULL-STACK DEVELOPER",
-        period: "March 2023 - Present",
+        period: "March 2023 - October 2024",
         company: "Split IO",
         description: [
           "Site reconstruction and brand rebranding.",
@@ -81,12 +91,12 @@ export const Data = {
       },
       {
         title: "FULL-STACK DEVELOPER",
-        period: "January 2017 - Present",
+        period: "January 2017 - October 2024",
         company: "Dinkuminteractive",
         description: [
-          "Site reconstruction and brand rebranding.",
-          "Web application monitoring and security updates.",
-          "CI/CD pipeline with GITHUB."
+          "Develops full-stack web applications (frontend and backend).",
+          "Automates deployments and manages cloud infrastructure (CI/CD, Docker, etc.).",
+          "Improves performance, security, and reliability in production environments."
         ],
       },
       {
@@ -117,36 +127,24 @@ export const Data = {
     ],
     proyects: [
       {
-        name: "Rionegro.com.ar",
+        name: "sindicaturaneuquen.gob.ar",
         company: "website",
-        period: "May. 2018 - Febraury. 2022",
         description: [
-          "Design, development, security and deployment of the website of the digital newspaper.",
+          "Design, development, security and deployment of the website",
         ],
-      },
+      },      
       {
-        name: "Boston.com",
+        name: "tisasrl.com.ar",
         company: "website",
-        period: "Febraury. 2022 - Febraury. 2023",
-        description: [
-          "Control, development, security and deployment of APIs and website of the digital newspaper.",
-        ],
-      },
-      
-      {
-        name: "Tisasrl.com.ar",
-        company: "website",
-        period: "November. 2021",
         description: [
           "Site development and implementation, control and monitoring of the application.",
         ],
       },
       {
-        name: "Mayarts.com",
-        company: "website",
-        period: "September. 2018",
+        name: "Aym SRL",
+        company: "ticket system",
         description: [
-          "Ecommerce development and implementation.",
+          "Ticket development and implementation, email integration",
         ],
       },
     ],

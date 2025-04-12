@@ -243,10 +243,11 @@ body.dark-theme {
 }
 
 .home__img {
-  width: 200px;
-  height: 270px;
-  border-radius: 85px;
+  width: 100vw;
+  height: auto;
+  border-radius: 10px;
   justify-self: center;
+  position: relative;
   margin-bottom: var(--mb-1);
 }
 
@@ -403,10 +404,23 @@ body.dark-theme {
 
 /*========== MEDIA QUERIES ==========*/
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 485px) {
   .nav__list {
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem 0.5rem;
+  }
+
+  .skills__data li {
+    margin-left: 35%;
+  }
+  .social__container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .home__address.bd-grid {
+    margin: 0 auto;
   }
 }
 
