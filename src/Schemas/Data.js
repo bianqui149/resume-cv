@@ -71,7 +71,7 @@ export const Data = {
     works: [
       {
         title: "Senior PHP developer",
-        period: "October 2024 - Present",
+        period: "October 2024 - September 2025",
         company: "Better Collective",
         description: [
           "Responsible for the design, development and maintenance of websites.",
