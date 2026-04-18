@@ -70,6 +70,16 @@ export const Data = {
   experience: {
     works: [
       {
+        title: "Software Developer",
+        period: "December 2025 - Present",
+        company: "Enviopack",
+        description: [
+          "Responsible for analysis, design, development, and maintenance of OMS (Order Management System) solutions.",
+          "Developing and implementing both frontend and backend functionalities.",
+          "Optimizing system performance, scalability, and security.",
+        ],
+      },
+      {
         title: "Senior PHP developer",
         period: "October 2024 - September 2025",
         company: "Better Collective",
